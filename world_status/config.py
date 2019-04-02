@@ -24,3 +24,5 @@ RSS_FEEDS = [
     "http://feeds.reuters.com/Reuters/worldNews",
     "http://feeds.washingtonpost.com/rss/world",
 ]
+
+ES_CLUSTER = ['localhost:9200']
