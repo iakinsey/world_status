@@ -1,11 +1,11 @@
 Major line items
 ----------------
-extractor job
 streamer
 UI
 
 Nice to haves
 -----------------------
+job logging
 tf-idf extractor
 subject extractor
 categorization

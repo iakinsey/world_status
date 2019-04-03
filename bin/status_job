@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+
+
+intro = """start_job: Starts news ingestion job.
+
+Usage:
+    start_job
+    start_job (-h | --help)
+    start_job (-v | --version)
+
+Options:
+    -h --help                     Show this screen.
+    -v --version                  Show version.
+"""
+
+# PATH REWRITE HACK
+from sys import path
+from os.path import basename, dirname, abspath
+path.insert(0, dirname(abspath(basename(dirname(__file__)))))
+
+from docopt import docopt
+from world_status.job import FeedIngestionJob
+
+if __name__ == "__main__":
+    options = docopt(intro, version='0.0.1')
+    job = FeedIngestionJob()
+    job.run()

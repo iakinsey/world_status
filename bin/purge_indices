@@ -1,0 +1,3 @@
+#!/bin/bash
+# TODO read index value from index file
+curl -X DELETE 'localhost:9200/article'
