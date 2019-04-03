@@ -26,7 +26,7 @@ class FeedIngestionJob:
                 log.info("Caught error during processing")
                 log.exception(e)
 
-            sleep(120)
+            sleep(config.JOB_RUN_INTERVAL_SECONDS)
 
     def do_work(self):
         feeds = self.feed_manager.feeds_with_expired_ttls
