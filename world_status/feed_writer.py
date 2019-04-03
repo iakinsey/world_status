@@ -2,6 +2,7 @@ from elasticsearch.helpers import bulk, BulkIndexError
 from hashlib import md5
 from world_status.es import get_elasticsearch, declare_schema
 from world_status.indices.article import Article
+from world_status.log import log
 
 
 class FeedWriter:
@@ -22,7 +23,9 @@ class FeedWriter:
             failed_urls = set(i['create']['data']['url'] for i in e.args[1])
             successes = successes.difference(failed_urls)
 
-        self.publish([i for i in feed_contents if i['url'] in successes])
+        if successes:
+            log.info("Saved {} articles".format(len(successes)))
+            self.publish([i for i in feed_contents if i['url'] in successes])
 
     def get_insert_actions(self, feed_contents):
         for article in feed_contents:
@@ -37,4 +40,5 @@ class FeedWriter:
 
     def publish(self, feed_contents):
         # TODO
+        log.info("Publishing {} articles".format(len(feed_contents)))
         pass

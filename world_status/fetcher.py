@@ -4,9 +4,11 @@ from textblob import TextBlob
 from warnings import catch_warnings, simplefilter
 from world_status import config
 from world_status.country import CountryMetaExtractor
+from world_status.log import log
 
 
 def get_content(url):
+    log.info("Fetching feed from {}".format(url))
     contents = parse(url)
     entries = contents.get("entries", [])
     result = []
