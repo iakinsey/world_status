@@ -10,6 +10,7 @@ PROJECT_ROOT = abspath(dirname(dirname(realpath(__file__))))
 DATA_DIR = join(PROJECT_ROOT, 'config')
 COUNTRY_NAME_PATH = join(DATA_DIR, 'countries.json')
 
+
 ###############################################################################
 # Feeds
 ###############################################################################
@@ -25,4 +26,8 @@ RSS_FEEDS = [
     "http://feeds.washingtonpost.com/rss/world",
 ]
 
+
 ES_CLUSTER = ['localhost:9200']
+
+
+DEFAULT_TTL = 60
