@@ -5,12 +5,17 @@ from world_status.fetcher import get_content
 from world_status.feeds import FeedManager
 from world_status.feed_writer import FeedWriter
 from world_status.log import log
+from world_status.publisher import Publisher
 
 
 class FeedIngestionJob:
     def __init__(self):
         self.feed_manager = FeedManager(config.RSS_FEEDS)
         self.feed_writer = FeedWriter()
+        self.publisher = Publisher(
+            config.NOTIFIER_ZMQ_HOST,
+            config.NOTIFIER_ZMQ_PORT
+        )
 
     def run(self):
         log.info("Starting feed ingestion job")
@@ -37,5 +42,10 @@ class FeedIngestionJob:
 
         for url in feeds:
             content = get_content(url)
-            self.feed_writer.save(content)
+            new_content = self.feed_writer.save(content)
+
             self.feed_manager.update_last_run_time(url)
+
+            log.info("Publishing {} messages".format(len(new_content)))
+            for content in new_content:
+                self.publisher.publish(content, "article")

@@ -32,3 +32,14 @@ ES_CLUSTER = ['localhost:9200']
 
 DEFAULT_TTL = 60
 JOB_RUN_INTERVAL_SECONDS = 240
+
+
+###############################################################################
+# Notifier
+###############################################################################
+
+
+NOTIFIER_ZMQ_HOST = "0.0.0.0"
+NOTIFIER_ZMQ_PORT = 32112
+NOTIFIER_WEBSOCKET_HOST = "0.0.0.0"
+NOTIFIER_WEBSOCKET_PORT = 5321

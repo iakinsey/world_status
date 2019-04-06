@@ -23,9 +23,15 @@ class FeedWriter:
             failed_urls = set(i['create']['data']['url'] for i in e.args[1])
             successes = successes.difference(failed_urls)
 
-        if successes:
-            log.info("Saved {} articles".format(len(successes)))
-            self.publish([i for i in feed_contents if i['url'] in successes])
+        log.info("Saved {} articles".format(len(successes)))
+
+        results = []
+
+        for i in feed_contents:
+            if i['url'] in successes:
+                results.append(i)
+
+        return results
 
     def get_insert_actions(self, feed_contents):
         for article in feed_contents:
@@ -37,8 +43,3 @@ class FeedWriter:
                 "_index": Article.name,
                 "_type": Article.doc_type
             }
-
-    def publish(self, feed_contents):
-        # TODO
-        log.info("Publishing {} articles".format(len(feed_contents)))
-        pass

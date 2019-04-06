@@ -1,6 +1,6 @@
 Major line items
 ----------------
-streamer
+streamer - filter schema {"tags": [], "countries": [], "terms": []}
 UI
 
 Nice to haves
@@ -11,3 +11,4 @@ subject extractor
 categorization
 map
 tags
+make job async

@@ -52,7 +52,7 @@ class FeedManager:
         except:
             ttl = config.default_ttl
 
-        return timedelta(ttl)
+        return timedelta(minutes=ttl)
 
     def update_last_run_time(self, url):
         self.feeds[url]['last_updated'] = datetime.now()

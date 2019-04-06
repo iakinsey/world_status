@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 from feedparser import parse
 from textblob import TextBlob
+from time import time
 from warnings import catch_warnings, simplefilter
 from world_status import config
 from world_status.country import CountryMetaExtractor
@@ -29,8 +30,8 @@ class EntityContentExtractor:
     def __init__(self, url):
         self.url = url
         self.countries = set()
-        self.to_extract_countries_from = []
-        self.entity = {}
+        self.all_text_list = []
+        self.entity = {"created": int(time())}
 
     def get_entity(self, entry):
         summary = entry.get("summary")
@@ -54,13 +55,14 @@ class EntityContentExtractor:
         if tags:
             self.analyze_tags(tags)
 
-        if self.to_extract_countries_from:
+        if self.all_text_list:
+            self.entity['all_text'] = "; ".join(self.all_text_list)
             self.analyze_countries()
 
         return self.entity
 
     def analyze_countries(self):
-        string = "; ".join(self.to_extract_countries_from)
+        string = self.entity['all_text']
         countries = self.country_meta.get_countries(string)
 
         if countries:
@@ -92,7 +94,7 @@ class EntityContentExtractor:
 
         if result:
             self.entity['tags'] = result
-            self.to_extract_countries_from.append("; ".join(result))
+            self.all_text_list.append("; ".join(result))
 
     def get_raw_text(self, text):
         with catch_warnings():
@@ -118,7 +120,7 @@ class EntityContentExtractor:
             "sentiment": sentiment
         }
 
-        self.to_extract_countries_from.append(raw_text)
+        self.all_text_list.append(raw_text)
 
         for key, value in result.items():
             self.entity[prefix + "_" + key] = value
