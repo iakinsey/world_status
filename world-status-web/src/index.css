@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  font-family: "Lucida Console", Monaco, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #efefef
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

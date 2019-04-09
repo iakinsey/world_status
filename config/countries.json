@@ -1,1543 +1,1543 @@
 {
-  "AD": {
-    "names": [
-      "Andorra",
-      "The Principality of Andorra"
-    ]
-  },
-  "AE": {
-    "names": [
-      "United Arab Emirates",
-      "The United Arab Emirates"
-    ]
-  },
-  "AF": {
-    "names": [
-      "Afghanistan",
-      "The Islamic Republic of Afghanistan"
-    ]
-  },
-  "AG": {
-    "names": [
-      "Antigua and Barbuda"
-    ]
-  },
-  "AI": {
-    "names": [
-      "Anguilla"
-    ]
-  },
-  "AL": {
-    "names": [
-      "Albania",
-      "The Republic of Albania"
-    ]
-  },
-  "AM": {
-    "names": [
-      "Armenia",
-      "The Republic of Armenia"
-    ]
-  },
-  "AO": {
-    "names": [
-      "Angola",
-      "The Republic of Angola"
-    ]
-  },
-  "AQ": {
-    "names": [
-      "Antarctica",
-      "All land and ice shelves south of the 60th parallel south"
-    ]
-  },
-  "AR": {
-    "names": [
-      "Argentina",
-      "The Argentine Republic"
-    ]
-  },
-  "AS": {
-    "names": [
-      "American Samoa",
-      "The Territory of American Samoa"
-    ]
-  },
-  "AT": {
-    "names": [
-      "Austria",
-      "The Republic of Austria"
-    ]
-  },
-  "AU": {
-    "names": [
-      "Ashmore and Cartier Islands",
-      "Australia",
-      "Coral Sea Islands",
-      "The Commonwealth of Australia"
-    ]
-  },
-  "AW": {
-    "names": [
-      "Aruba"
-    ]
-  },
-  "AX": {
-    "names": [
-      "\u00c5land Islands",
-      "\u00c5land"
-    ]
-  },
-  "AZ": {
-    "names": [
-      "Azerbaijan",
-      "The Republic of Azerbaijan"
-    ]
-  },
-  "BA": {
-    "names": [
-      "Bosnia and Herzegovina"
-    ]
-  },
-  "BB": {
-    "names": [
-      "Barbados"
-    ]
-  },
-  "BD": {
-    "names": [
-      "Bangladesh",
-      "The People's Republic of Bangladesh"
-    ]
-  },
-  "BE": {
-    "names": [
-      "Belgium",
-      "The Kingdom of Belgium"
-    ]
-  },
-  "BF": {
-    "names": [
-      "Burkina Faso"
-    ]
-  },
-  "BG": {
-    "names": [
-      "Bulgaria",
-      "The Republic of Bulgaria"
-    ]
-  },
-  "BH": {
-    "names": [
-      "Bahrain",
-      "The Kingdom of Bahrain"
-    ]
-  },
-  "BI": {
-    "names": [
-      "Burundi",
-      "The Republic of Burundi"
-    ]
-  },
-  "BJ": {
-    "names": [
-      "Benin",
-      "The Republic of Benin"
-    ]
-  },
-  "BL": {
-    "names": [
-      "Saint Barth\u00e9lemy",
-      "The Collectivity of Saint-Barth\u00e9lemy"
-    ]
-  },
-  "BM": {
-    "names": [
-      "Bermuda"
-    ]
-  },
-  "BN": {
-    "names": [
-      "Brunei Darussalam",
-      "The Nation of Brunei, the Abode of Peace"
-    ]
-  },
-  "BO": {
-    "names": [
-      "Bolivia",
-      "The Plurinational State of Bolivia"
-    ]
-  },
-  "BQ": {
-    "names": [
-      "Bonaire",
-      "Sint Eustatius",
-      "Saba",
-      "Caribbean Netherlands"
-    ]
-  },
-  "BR": {
-    "names": [
-      "Brazil",
-      "The Federative Republic of Brazil"
-    ]
-  },
-  "BS": {
-    "names": [
-      "Bahamas (the)",
-      "The Commonwealth of The Bahamas"
-    ]
-  },
-  "BT": {
-    "names": [
-      "Bhutan",
-      "The Kingdom of Bhutan"
-    ]
-  },
-  "BV": {
-    "names": [
-      "Bouvet Island"
-    ]
-  },
-  "BW": {
-    "names": [
-      "Botswana",
-      "The Republic of Botswana"
-    ]
-  },
-  "BY": {
-    "names": [
-      "Belarus",
-      "The Republic of Belarus"
-    ]
-  },
-  "BZ": {
-    "names": [
-      "Belize"
-    ]
-  },
-  "CA": {
-    "names": [
-      "Canada"
-    ]
-  },
-  "CC": {
-    "names": [
-      "Cocos Islands",
-      "Keeling Islands",
-      "The Territory of Cocos (Keeling) Islands"
-    ]
-  },
-  "CD": {
-    "names": [
-      "The Democratic Republic of the Congo",
-      "Democratic Republic of the Congo"
-    ]
-  },
-  "CF": {
-    "names": [
-      "Central African Republic",
-      "The Central African Republic"
-    ]
-  },
-  "CG": {
-    "names": [
-      "The Republic of the Congo",
-      "Republic of the Congo"
-    ]
-  },
-  "CH": {
-    "names": [
-      "Switzerland",
-      "The Swiss Confederation"
-    ]
-  },
-  "CI": {
-    "names": [
-      "C\u00f4te d'Ivoire",
-      "Ivory Coast",
-      "The Republic of C\u00f4te d'Ivoire"
-    ]
-  },
-  "CK": {
-    "names": [
-      "Cook Islands",
-      "The Cook Islands"
-    ]
-  },
-  "CL": {
-    "names": [
-      "Chile",
-      "The Republic of Chile"
-    ]
-  },
-  "CM": {
-    "names": [
-      "Cameroon",
-      "The Republic of Cameroon"
-    ]
-  },
-  "CN": {
-    "names": [
-      "China",
-      "People's Republic of China",
-      "The People's Republic of China"
-    ]
-  },
-  "CO": {
-    "names": [
-      "Colombia",
-      "The Republic of Colombia"
-    ]
-  },
-  "CR": {
-    "names": [
-      "Costa Rica",
-      "The Republic of Costa Rica"
-    ]
-  },
-  "CU": {
-    "names": [
-      "Cuba",
-      "The Republic of Cuba"
-    ]
-  },
-  "CV": {
-    "names": [
-      "Cabo Verde",
-      "Cape Verde",
-      "The Republic of Cabo Verde"
-    ]
-  },
-  "CW": {
-    "names": [
-      "Cura\u00e7ao",
-      "The Country of Cura\u00e7ao"
-    ]
-  },
-  "CX": {
-    "names": [
-      "Christmas Island",
-      "The Territory of Christmas Island"
-    ]
-  },
-  "CY": {
-    "names": [
-      "Cyprus",
-      "The Republic of Cyprus"
-    ]
-  },
-  "CZ": {
-    "names": [
-      "Czechia",
-      "The Czech Republic"
-    ]
-  },
-  "DE": {
-    "names": [
-      "Germany",
-      "The Federal Republic of Germany"
-    ]
-  },
-  "DJ": {
-    "names": [
-      "Djibouti",
-      "The Republic of Djibouti"
-    ]
-  },
-  "DK": {
-    "names": [
-      "Denmark",
-      "The Kingdom of Denmark"
-    ]
-  },
-  "DM": {
-    "names": [
-      "Dominica",
-      "The Commonwealth of Dominica"
-    ]
-  },
-  "DO": {
-    "names": [
-      "Dominican Republic",
-      "The Dominican Republic"
-    ]
-  },
-  "DZ": {
-    "names": [
-      "Algeria",
-      "The People's Democratic Republic of Algeria"
-    ]
-  },
-  "EC": {
-    "names": [
-      "Ecuador",
-      "The Republic of Ecuador"
-    ]
-  },
-  "EE": {
-    "names": [
-      "Estonia",
-      "The Republic of Estonia"
-    ]
-  },
-  "EG": {
-    "names": [
-      "Egypt",
-      "The Arab Republic of Egypt"
-    ]
-  },
-  "EH": {
-    "names": [
-      "Sahrawi Arab Democratic Republic",
-      "Western Sahara",
-      "The Sahrawi Arab Democratic Republic"
-    ]
-  },
-  "ER": {
-    "names": [
-      "Eritrea",
-      "The State of Eritrea"
-    ]
-  },
-  "ES": {
-    "names": [
-      "Spain",
-      "The Kingdom of Spain"
-    ]
-  },
-  "ET": {
-    "names": [
-      "Ethiopia",
-      "The Federal Democratic Republic of Ethiopia"
-    ]
-  },
-  "FI": {
-    "names": [
-      "Finland",
-      "The Republic of Finland"
-    ]
-  },
-  "FJ": {
-    "names": [
-      "Fiji",
-      "The Republic of Fiji"
-    ]
-  },
-  "FK": {
-    "names": [
-      "Falkland Islands",
-      "Malvinas",
-      "The Falkland Islands"
-    ]
-  },
-  "FM": {
-    "names": [
-      "Micronesia",
-      "The Federated States of Micronesia"
-    ]
-  },
-  "FO": {
-    "names": [
-      "Faroe Islands",
-      "The Faroe Islands"
-    ]
-  },
-  "FR": {
-    "names": [
-      "Clipperton Island",
-      "France",
-      "The French Republic"
-    ]
-  },
-  "GA": {
-    "names": [
-      "Gabon",
-      "The Gabonese Republic"
-    ]
-  },
-  "GB": {
-    "names": [
-      "England",
-      "Great Britain",
-      "Northern Ireland",
-      "Scotland",
-      "United Kingdom of Great Britain and Northern Ireland",
-      "Wales",
-      "The United Kingdom of Great Britain and Northern Ireland"
-    ]
-  },
-  "GD": {
-    "names": [
-      "Grenada"
-    ]
-  },
-  "GE": {
-    "names": [
-      "Georgia"
-    ]
-  },
-  "GF": {
-    "names": [
-      "French Guiana",
-      "Guyane"
-    ]
-  },
-  "GG": {
-    "names": [
-      "Guernsey",
-      "The Bailiwick of Guernsey"
-    ]
-  },
-  "GH": {
-    "names": [
-      "Ghana",
-      "The Republic of Ghana"
-    ]
-  },
-  "GI": {
-    "names": [
-      "Gibraltar"
-    ]
-  },
-  "GL": {
-    "names": [
-      "Greenland",
-      "Kalaallit Nunaat"
-    ]
-  },
-  "GM": {
-    "names": [
-      "Gambia",
-      "The Republic of The Gambia"
-    ]
-  },
-  "GN": {
-    "names": [
-      "Guinea",
-      "The Republic of Guinea"
-    ]
-  },
-  "GP": {
-    "names": [
-      "Guadeloupe"
-    ]
-  },
-  "GQ": {
-    "names": [
-      "Equatorial Guinea",
-      "The Republic of Equatorial Guinea"
-    ]
-  },
-  "GR": {
-    "names": [
-      "Greece",
-      "The Hellenic Republic"
-    ]
-  },
-  "GS": {
-    "names": [
-      "South Georgia and the South Sandwich Islands"
-    ]
-  },
-  "GT": {
-    "names": [
-      "Guatemala",
-      "The Republic of Guatemala"
-    ]
-  },
-  "GU": {
-    "names": [
-      "Guam",
-      "The Territory of Guam"
-    ]
-  },
-  "GW": {
-    "names": [
-      "Guinea-Bissau",
-      "The Republic of Guinea-Bissau"
-    ]
-  },
-  "GY": {
-    "names": [
-      "Guyana",
-      "The Co-operative Republic of Guyana"
-    ]
-  },
-  "HK": {
-    "names": [
-      "Hong Kong",
-      "The Hong Kong Special Administrative Region of China"
-    ]
-  },
-  "HM": {
-    "names": [
-      "Heard Island and McDonald Islands",
-      "The Territory of Heard Island and McDonald Islands"
-    ]
-  },
-  "HN": {
-    "names": [
-      "Honduras",
-      "The Republic of Honduras"
-    ]
-  },
-  "HR": {
-    "names": [
-      "Croatia",
-      "The Republic of Croatia"
-    ]
-  },
-  "HT": {
-    "names": [
-      "Haiti",
-      "The Republic of Haiti"
-    ]
-  },
-  "HU": {
-    "names": [
-      "Hungary"
-    ]
-  },
-  "ID": {
-    "names": [
-      "Indonesia",
-      "The Republic of Indonesia"
-    ]
-  },
-  "IE": {
-    "names": [
-      "Ireland"
-    ]
-  },
-  "IL": {
-    "names": [
-      "Israel",
-      "The State of Israel"
-    ]
-  },
-  "IM": {
-    "names": [
-      "Isle of Man",
-      "The Isle of Man"
-    ]
-  },
-  "IN": {
-    "names": [
-      "India",
-      "The Republic of India"
-    ]
-  },
-  "IO": {
-    "names": [
-      "British Indian Ocean Territory",
-      "The British Indian Ocean Territory"
-    ]
-  },
-  "IQ": {
-    "names": [
-      "Iraq",
-      "The Republic of Iraq"
-    ]
-  },
-  "IR": {
-    "names": [
-      "Iran",
-      "The Islamic Republic of Iran"
-    ]
-  },
-  "IS": {
-    "names": [
-      "Iceland"
-    ]
-  },
-  "IT": {
-    "names": [
-      "Italy",
-      "The Italian Republic"
-    ]
-  },
-  "JE": {
-    "names": [
-      "Jersey",
-      "The Bailiwick of Jersey"
-    ]
-  },
-  "JM": {
-    "names": [
-      "Jamaica"
-    ]
-  },
-  "JO": {
-    "names": [
-      "Jordan",
-      "The Hashemite Kingdom of Jordan"
-    ]
-  },
-  "JP": {
-    "names": [
-      "Japan"
-    ]
-  },
-  "KE": {
-    "names": [
-      "Kenya",
-      "The Republic of Kenya"
-    ]
-  },
-  "KG": {
-    "names": [
-      "Kyrgyzstan",
-      "The Kyrgyz Republic"
-    ]
-  },
-  "KH": {
-    "names": [
-      "Cambodia",
-      "The Kingdom of Cambodia"
-    ]
-  },
-  "KI": {
-    "names": [
-      "Kiribati",
-      "The Republic of Kiribati"
-    ]
-  },
-  "KM": {
-    "names": [
-      "Comoros",
-      "The Union of the Comoros"
-    ]
-  },
-  "KN": {
-    "names": [
-      "Saint Kitts and Nevis"
-    ]
-  },
-  "KP": {
-    "names": [
-      "Democratic People's Republic of Korea",
-      "North Korea",
-      "The Democratic People's Republic of Korea"
-    ]
-  },
-  "KR": {
-    "names": [
-      "Republic of Korea",
-      "South Korea",
-      "The Republic of Korea"
-    ]
-  },
-  "KW": {
-    "names": [
-      "Kuwait",
-      "The State of Kuwait"
-    ]
-  },
-  "KY": {
-    "names": [
-      "Cayman Islands",
-      "The Cayman Islands"
-    ]
-  },
-  "KZ": {
-    "names": [
-      "Kazakhstan",
-      "The Republic of Kazakhstan"
-    ]
-  },
-  "LA": {
-    "names": [
-      "Lao",
-      "The Lao People's Democratic Republic"
-    ]
-  },
-  "LB": {
-    "names": [
-      "Lebanon",
-      "The Lebanese Republic"
-    ]
-  },
-  "LC": {
-    "names": [
-      "Saint Lucia"
-    ]
-  },
-  "LI": {
-    "names": [
-      "Liechtenstein",
-      "The Principality of Liechtenstein"
-    ]
-  },
-  "LK": {
-    "names": [
-      "Sri Lanka",
-      "The Democratic Socialist Republic of Sri Lanka"
-    ]
-  },
-  "LR": {
-    "names": [
-      "Liberia",
-      "The Republic of Liberia"
-    ]
-  },
-  "LS": {
-    "names": [
-      "Lesotho",
-      "The Kingdom of Lesotho"
-    ]
-  },
-  "LT": {
-    "names": [
-      "Lithuania",
-      "The Republic of Lithuania"
-    ]
-  },
-  "LU": {
-    "names": [
-      "Luxembourg",
-      "The Grand Duchy of Luxembourg"
-    ]
-  },
-  "LV": {
-    "names": [
-      "Latvia",
-      "The Republic of Latvia"
-    ]
-  },
-  "LY": {
-    "names": [
-      "Libya",
-      "The State of Libya"
-    ]
-  },
-  "MA": {
-    "names": [
-      "Morocco",
-      "The Kingdom of Morocco"
-    ]
-  },
-  "MC": {
-    "names": [
-      "Monaco",
-      "The Principality of Monaco"
-    ]
-  },
-  "MD": {
-    "names": [
-      "Moldova",
-      "The Republic of Moldova"
-    ]
-  },
-  "ME": {
-    "names": [
-      "Montenegro"
-    ]
-  },
-  "MF": {
-    "names": [
-      "Saint Martin",
-      "The Collectivity of Saint-Martin"
-    ]
-  },
-  "MG": {
-    "names": [
-      "Madagascar",
-      "The Republic of Madagascar"
-    ]
-  },
-  "MH": {
-    "names": [
-      "Marshall Islands",
-      "The Republic of the Marshall Islands"
-    ]
-  },
-  "MK": {
-    "names": [
-      "North Macedonia",
-      "Macedonia",
-      "Republic of North Macedonia"
-    ]
-  },
-  "ML": {
-    "names": [
-      "Mali",
-      "The Republic of Mali"
-    ]
-  },
-  "MM": {
-    "names": [
-      "Burma",
-      "Myanmar",
-      "The Republic of the Union of Myanmar"
-    ]
-  },
-  "MN": {
-    "names": [
-      "Mongolia",
-      "The State of Mongolia"
-    ]
-  },
-  "MO": {
-    "names": [
-      "Macao",
-      "Macao Special Administrative Region of China"
-    ]
-  },
-  "MP": {
-    "names": [
-      "Northern Mariana Islands",
-      "The Commonwealth of the Northern Mariana Islands"
-    ]
-  },
-  "MQ": {
-    "names": [
-      "Martinique"
-    ]
-  },
-  "MR": {
-    "names": [
-      "Mauritania",
-      "The Islamic Republic of Mauritania"
-    ]
-  },
-  "MS": {
-    "names": [
-      "Montserrat"
-    ]
-  },
-  "MT": {
-    "names": [
-      "Malta",
-      "The Republic of Malta"
-    ]
-  },
-  "MU": {
-    "names": [
-      "Mauritius",
-      "The Republic of Mauritius"
-    ]
-  },
-  "MV": {
-    "names": [
-      "Maldives",
-      "The Republic of Maldives"
-    ]
-  },
-  "MW": {
-    "names": [
-      "Malawi",
-      "The Republic of Malawi"
-    ]
-  },
-  "MX": {
-    "names": [
-      "Mexico",
-      "The United Mexican States"
-    ]
-  },
-  "MY": {
-    "names": [
-      "Malaysia"
-    ]
-  },
-  "MZ": {
-    "names": [
-      "Mozambique",
-      "The Republic of Mozambique"
-    ]
-  },
-  "NA": {
-    "names": [
-      "Namibia",
-      "The Republic of Namibia"
-    ]
-  },
-  "NC": {
-    "names": [
-      "New Caledonia"
-    ]
-  },
-  "NE": {
-    "names": [
-      "Niger",
-      "The Republic of the Niger"
-    ]
-  },
-  "NF": {
-    "names": [
-      "Norfolk Island",
-      "The Territory of Norfolk Island"
-    ]
-  },
-  "NG": {
-    "names": [
-      "Nigeria",
-      "The Federal Republic of Nigeria"
-    ]
-  },
-  "NI": {
-    "names": [
-      "Nicaragua",
-      "The Republic of Nicaragua"
-    ]
-  },
-  "NL": {
-    "names": [
-      "Netherlands",
-      "The Kingdom of the Netherlands"
-    ]
-  },
-  "NO": {
-    "names": [
-      "Norway",
-      "The Kingdom of Norway"
-    ]
-  },
-  "NP": {
-    "names": [
-      "Nepal",
-      "The Federal Democratic Republic of Nepal"
-    ]
-  },
-  "NR": {
-    "names": [
-      "Nauru",
-      "The Republic of Nauru"
-    ]
-  },
-  "NU": {
-    "names": [
-      "Niue"
-    ]
-  },
-  "NZ": {
-    "names": [
-      "New Zealand"
-    ]
-  },
-  "OM": {
-    "names": [
-      "Oman",
-      "The Sultanate of Oman"
-    ]
-  },
-  "PA": {
-    "names": [
-      "Panama",
-      "The Republic of Panam\u00e1"
-    ]
-  },
-  "PE": {
-    "names": [
-      "Peru",
-      "The Republic of Per\u00fa"
-    ]
-  },
-  "PF": {
-    "names": [
-      "French Polynesia"
-    ]
-  },
-  "PG": {
-    "names": [
-      "Papua New Guinea",
-      "The Independent State of Papua New Guinea"
-    ]
-  },
-  "PH": {
-    "names": [
-      "Philippines",
-      "The Republic of the Philippines"
-    ]
-  },
-  "PK": {
-    "names": [
-      "Pakistan",
-      "The Islamic Republic of Pakistan"
-    ]
-  },
-  "PL": {
-    "names": [
-      "Poland",
-      "The Republic of Poland"
-    ]
-  },
-  "PM": {
-    "names": [
-      "Saint Pierre and Miquelon",
-      "The Overseas Collectivity of Saint-Pierre and Miquelon"
-    ]
-  },
-  "PN": {
-    "names": [
-      "Pitcairn",
-      "The Pitcairn, Henderson, Ducie and Oeno Islands"
-    ]
-  },
-  "PR": {
-    "names": [
-      "Puerto Rico",
-      "The Commonwealth of Puerto Rico"
-    ]
-  },
-  "PS": {
-    "names": [
-      "Palestine, State of",
-      "The State of Palestine"
-    ]
-  },
-  "PT": {
-    "names": [
-      "Portugal",
-      "The Portuguese Republic"
-    ]
-  },
-  "PW": {
-    "names": [
-      "Palau",
-      "The Republic of Palau"
-    ]
-  },
-  "PY": {
-    "names": [
-      "Paraguay",
-      "The Republic of Paraguay"
-    ]
-  },
-  "QA": {
-    "names": [
-      "Qatar",
-      "The State of Qatar"
-    ]
-  },
-  "RE": {
-    "names": [
-      "R\u00e9union"
-    ]
-  },
-  "RO": {
-    "names": [
-      "Romania"
-    ]
-  },
-  "RS": {
-    "names": [
-      "Serbia",
-      "The Republic of Serbia"
-    ]
-  },
-  "RU": {
-    "names": [
-      "Russian Federation",
-      "The Russian Federation"
-    ]
-  },
-  "RW": {
-    "names": [
-      "Rwanda",
-      "The Republic of Rwanda"
-    ]
-  },
-  "SA": {
-    "names": [
-      "Saudi Arabia",
-      "The Kingdom of Saudi Arabia"
-    ]
-  },
-  "SB": {
-    "names": [
-      "Solomon Islands",
-      "The Solomon Islands"
-    ]
-  },
-  "SC": {
-    "names": [
-      "Seychelles",
-      "The Republic of Seychelles"
-    ]
-  },
-  "SD": {
-    "names": [
-      "Sudan",
-      "The Republic of the Sudan"
-    ]
-  },
-  "SE": {
-    "names": [
-      "Sweden",
-      "The Kingdom of Sweden"
-    ]
-  },
-  "SG": {
-    "names": [
-      "Singapore",
-      "The Republic of Singapore"
-    ]
-  },
-  "SH": {
-    "names": [
-      "Saint Helena, Ascension and Tristan da Cunha"
-    ]
-  },
-  "SI": {
-    "names": [
-      "Slovenia",
-      "The Republic of Slovenia"
-    ]
-  },
-  "SJ": {
-    "names": [
-      "Jan Mayen",
-      "Svalbard",
-      "Svalbard and Jan Mayen"
-    ]
-  },
-  "SK": {
-    "names": [
-      "Slovakia",
-      "The Slovak Republic"
-    ]
-  },
-  "SL": {
-    "names": [
-      "Sierra Leone",
-      "The Republic of Sierra Leone"
-    ]
-  },
-  "SM": {
-    "names": [
-      "San Marino",
-      "The Republic of San Marino"
-    ]
-  },
-  "SN": {
-    "names": [
-      "Senegal",
-      "The Republic of Senegal"
-    ]
-  },
-  "SO": {
-    "names": [
-      "Somalia",
-      "The Federal Republic of Somalia"
-    ]
-  },
-  "SR": {
-    "names": [
-      "Suriname",
-      "The Republic of Suriname"
-    ]
-  },
-  "SS": {
-    "names": [
-      "South Sudan",
-      "The Republic of South Sudan"
-    ]
-  },
-  "ST": {
-    "names": [
-      "Sao Tome and Principe",
-      "The Democratic Republic of S\u00e3o Tom\u00e9 and Pr\u00edncipe"
-    ]
-  },
-  "SV": {
-    "names": [
-      "El Salvador",
-      "The Republic of El Salvador"
-    ]
-  },
-  "SX": {
-    "names": [
-      "Sint Maarten"
-    ]
-  },
-  "SY": {
-    "names": [
-      "Syrian Arab Republic",
-      "The Syrian Arab Republic"
-    ]
-  },
-  "SZ": {
-    "names": [
-      "Eswatini",
-      "The Kingdom of Eswatini"
-    ]
-  },
-  "TC": {
-    "names": [
-      "Turks and Caicos Islands",
-      "The Turks and Caicos Islands"
-    ]
-  },
-  "TD": {
-    "names": [
-      "Chad",
-      "The Republic of Chad"
-    ]
-  },
-  "TF": {
-    "names": [
-      "French Southern Territories",
-      "The French Southern and Antarctic Lands"
-    ]
-  },
-  "TG": {
-    "names": [
-      "Togo",
-      "The Togolese Republic"
-    ]
-  },
-  "TH": {
-    "names": [
-      "Thailand",
-      "The Kingdom of Thailand"
-    ]
-  },
-  "TJ": {
-    "names": [
-      "Tajikistan",
-      "The Republic of Tajikistan"
-    ]
-  },
-  "TK": {
-    "names": [
-      "Tokelau"
-    ]
-  },
-  "TL": {
-    "names": [
-      "East Timor",
-      "Timor-Leste",
-      "The Democratic Republic of Timor-Leste"
-    ]
-  },
-  "TM": {
-    "names": [
-      "Turkmenistan"
-    ]
-  },
-  "TN": {
-    "names": [
-      "Tunisia",
-      "The Republic of Tunisia"
-    ]
-  },
-  "TO": {
-    "names": [
-      "Tonga",
-      "The Kingdom of Tonga"
-    ]
-  },
-  "TR": {
-    "names": [
-      "Turkey",
-      "The Republic of Turkey"
-    ]
-  },
-  "TT": {
-    "names": [
-      "Trinidad and Tobago",
-      "The Republic of Trinidad and Tobago"
-    ]
-  },
-  "TV": {
-    "names": [
-      "Tuvalu"
-    ]
-  },
-  "TW": {
-    "names": [
-      "The Republic of China",
-      "Republic of China",
-      "Taiwan"
-    ]
-  },
-  "TZ": {
-    "names": [
-      "Tanzania, the United Republic of",
-      "The United Republic of Tanzania"
-    ]
-  },
-  "UA": {
-    "names": [
-      "Ukraine"
-    ]
-  },
-  "UG": {
-    "names": [
-      "Uganda",
-      "The Republic of Uganda"
-    ]
-  },
-  "UM": {
-    "names": [
-      "United States Minor Outlying Islands",
-      "Baker Island",
-      "Howland Island",
-      "Jarvis Island",
-      "Johnston Atoll",
-      "Kingman Reef",
-      "Midway Atoll,",
-      "Navassa Island",
-      "Palmyra Atoll",
-      "Wake Island"
-    ]
-  },
-  "US": {
-    "names": [
-      "Hawaii",
-      "United States of America",
-      "United States",
-      "USA",
-      "United States Virgin Islands",
-      "The United States of America",
-      "Alabama",
-      "Alaska",
-      "Arizona",
-      "Arkansas",
-      "California",
-      "Colorado",
-      "Connecticut",
-      "Delaware",
-      "Florida",
-      "Idaho",
-      "Illinois",
-      "Indiana",
-      "Iowa",
-      "Kansas",
-      "Kentucky",
-      "Louisiana",
-      "Maine",
-      "Maryland",
-      "Massachusetts",
-      "Michigan",
-      "Minnesota",
-      "Mississippi",
-      "Missouri",
-      "Montana",
-      "Nebraska",
-      "Nevada",
-      "New Hampshire",
-      "New Jersey",
-      "New Mexico",
-      "New York",
-      "North Carolina",
-      "North Dakota",
-      "Ohio",
-      "Oklahoma",
-      "Oregon",
-      "Pennsylvania",
-      "Rhode Island",
-      "South Carolina",
-      "South Dakota",
-      "Tennessee",
-      "Texas",
-      "Utah",
-      "Vermont",
-      "Virginia",
-      "Washington",
-      "West Virginia",
-      "Wisconsin",
-      "Wyoming"
-    ]
-  },
-  "UY": {
-    "names": [
-      "Uruguay",
-      "The Oriental Republic of Uruguay"
-    ]
-  },
-  "UZ": {
-    "names": [
-      "Uzbekistan",
-      "The Republic of Uzbekistan"
-    ]
-  },
-  "VA": {
-    "names": [
-      "Holy See",
-      "Vatican City",
-      "The Holy See"
-    ]
-  },
-  "VC": {
-    "names": [
-      "Saint Vincent and the Grenadines"
-    ]
-  },
-  "VE": {
-    "names": [
-      "Venezuela",
-      "The Bolivarian Republic of Venezuela"
-    ]
-  },
-  "VG": {
-    "names": [
-      "British Virgin Islands",
-      "Virgin Islands",
-      "The Virgin Islands"
-    ]
-  },
-  "VI": {
-    "names": [
-      "US Virgin Islands",
-      "The Virgin Islands of the United States"
-    ]
-  },
-  "VN": {
-    "names": [
-      "Viet Nam",
-      "Vietnam",
-      "The Socialist Republic of Viet Nam"
-    ]
-  },
-  "VU": {
-    "names": [
-      "Vanuatu",
-      "The Republic of Vanuatu"
-    ]
-  },
-  "WF": {
-    "names": [
-      "Wallis and Futuna",
-      "The Territory of the Wallis and Futuna Islands"
-    ]
-  },
-  "WS": {
-    "names": [
-      "Samoa",
-      "The Independent State of Samoa"
-    ]
-  },
-  "YE": {
-    "names": [
-      "Yemen",
-      "The Republic of Yemen"
-    ]
-  },
-  "YT": {
-    "names": [
-      "Mayotte",
-      "The Department of Mayotte"
-    ]
-  },
-  "ZA": {
-    "names": [
-      "South Africa",
-      "The Republic of South Africa"
-    ]
-  },
-  "ZM": {
-    "names": [
-      "Zambia",
-      "The Republic of Zambia"
-    ]
-  },
-  "ZW": {
-    "names": [
-      "Zimbabwe",
-      "The Republic of Zimbabwe"
-    ]
-  }
+    "ABW": {
+        "names": [
+            "Aruba"
+        ]
+    },
+    "AFG": {
+        "names": [
+            "Afghanistan",
+            "The Islamic Republic of Afghanistan"
+        ]
+    },
+    "AGO": {
+        "names": [
+            "Angola",
+            "The Republic of Angola"
+        ]
+    },
+    "AIA": {
+        "names": [
+            "Anguilla"
+        ]
+    },
+    "ALA": {
+        "names": [
+            "\u00c5land Islands",
+            "\u00c5land"
+        ]
+    },
+    "ALB": {
+        "names": [
+            "Albania",
+            "The Republic of Albania"
+        ]
+    },
+    "AND": {
+        "names": [
+            "Andorra",
+            "The Principality of Andorra"
+        ]
+    },
+    "ARE": {
+        "names": [
+            "United Arab Emirates",
+            "The United Arab Emirates"
+        ]
+    },
+    "ARG": {
+        "names": [
+            "Argentina",
+            "The Argentine Republic"
+        ]
+    },
+    "ARM": {
+        "names": [
+            "Armenia",
+            "The Republic of Armenia"
+        ]
+    },
+    "ASM": {
+        "names": [
+            "American Samoa",
+            "The Territory of American Samoa"
+        ]
+    },
+    "ATA": {
+        "names": [
+            "Antarctica",
+            "All land and ice shelves south of the 60th parallel south"
+        ]
+    },
+    "ATF": {
+        "names": [
+            "French Southern Territories",
+            "The French Southern and Antarctic Lands"
+        ]
+    },
+    "ATG": {
+        "names": [
+            "Antigua and Barbuda"
+        ]
+    },
+    "AUS": {
+        "names": [
+            "Ashmore and Cartier Islands",
+            "Australia",
+            "Coral Sea Islands",
+            "The Commonwealth of Australia"
+        ]
+    },
+    "AUT": {
+        "names": [
+            "Austria",
+            "The Republic of Austria"
+        ]
+    },
+    "AZE": {
+        "names": [
+            "Azerbaijan",
+            "The Republic of Azerbaijan"
+        ]
+    },
+    "BDI": {
+        "names": [
+            "Burundi",
+            "The Republic of Burundi"
+        ]
+    },
+    "BEL": {
+        "names": [
+            "Belgium",
+            "The Kingdom of Belgium"
+        ]
+    },
+    "BEN": {
+        "names": [
+            "Benin",
+            "The Republic of Benin"
+        ]
+    },
+    "BES": {
+        "names": [
+            "Bonaire",
+            "Sint Eustatius",
+            "Saba",
+            "Caribbean Netherlands"
+        ]
+    },
+    "BFA": {
+        "names": [
+            "Burkina Faso"
+        ]
+    },
+    "BGD": {
+        "names": [
+            "Bangladesh",
+            "The People's Republic of Bangladesh"
+        ]
+    },
+    "BGR": {
+        "names": [
+            "Bulgaria",
+            "The Republic of Bulgaria"
+        ]
+    },
+    "BHR": {
+        "names": [
+            "Bahrain",
+            "The Kingdom of Bahrain"
+        ]
+    },
+    "BHS": {
+        "names": [
+            "Bahamas (the)",
+            "The Commonwealth of The Bahamas"
+        ]
+    },
+    "BIH": {
+        "names": [
+            "Bosnia and Herzegovina"
+        ]
+    },
+    "BLM": {
+        "names": [
+            "Saint Barth\u00e9lemy",
+            "The Collectivity of Saint-Barth\u00e9lemy"
+        ]
+    },
+    "BLR": {
+        "names": [
+            "Belarus",
+            "The Republic of Belarus"
+        ]
+    },
+    "BLZ": {
+        "names": [
+            "Belize"
+        ]
+    },
+    "BMU": {
+        "names": [
+            "Bermuda"
+        ]
+    },
+    "BOL": {
+        "names": [
+            "Bolivia",
+            "The Plurinational State of Bolivia"
+        ]
+    },
+    "BRA": {
+        "names": [
+            "Brazil",
+            "The Federative Republic of Brazil"
+        ]
+    },
+    "BRB": {
+        "names": [
+            "Barbados"
+        ]
+    },
+    "BRN": {
+        "names": [
+            "Brunei Darussalam",
+            "The Nation of Brunei, the Abode of Peace"
+        ]
+    },
+    "BTN": {
+        "names": [
+            "Bhutan",
+            "The Kingdom of Bhutan"
+        ]
+    },
+    "BVT": {
+        "names": [
+            "Bouvet Island"
+        ]
+    },
+    "BWA": {
+        "names": [
+            "Botswana",
+            "The Republic of Botswana"
+        ]
+    },
+    "CAF": {
+        "names": [
+            "Central African Republic",
+            "The Central African Republic"
+        ]
+    },
+    "CAN": {
+        "names": [
+            "Canada"
+        ]
+    },
+    "CCK": {
+        "names": [
+            "Cocos Islands",
+            "Keeling Islands",
+            "The Territory of Cocos (Keeling) Islands"
+        ]
+    },
+    "CHE": {
+        "names": [
+            "Switzerland",
+            "The Swiss Confederation"
+        ]
+    },
+    "CHL": {
+        "names": [
+            "Chile",
+            "The Republic of Chile"
+        ]
+    },
+    "CHN": {
+        "names": [
+            "China",
+            "People's Republic of China",
+            "The People's Republic of China"
+        ]
+    },
+    "CIV": {
+        "names": [
+            "C\u00f4te d'Ivoire",
+            "Ivory Coast",
+            "The Republic of C\u00f4te d'Ivoire"
+        ]
+    },
+    "CMR": {
+        "names": [
+            "Cameroon",
+            "The Republic of Cameroon"
+        ]
+    },
+    "COD": {
+        "names": [
+            "The Democratic Republic of the Congo",
+            "Democratic Republic of the Congo"
+        ]
+    },
+    "COG": {
+        "names": [
+            "The Republic of the Congo",
+            "Republic of the Congo"
+        ]
+    },
+    "COK": {
+        "names": [
+            "Cook Islands",
+            "The Cook Islands"
+        ]
+    },
+    "COL": {
+        "names": [
+            "Colombia",
+            "The Republic of Colombia"
+        ]
+    },
+    "COM": {
+        "names": [
+            "Comoros",
+            "The Union of the Comoros"
+        ]
+    },
+    "CPV": {
+        "names": [
+            "Cabo Verde",
+            "Cape Verde",
+            "The Republic of Cabo Verde"
+        ]
+    },
+    "CRI": {
+        "names": [
+            "Costa Rica",
+            "The Republic of Costa Rica"
+        ]
+    },
+    "CUB": {
+        "names": [
+            "Cuba",
+            "The Republic of Cuba"
+        ]
+    },
+    "CUW": {
+        "names": [
+            "Cura\u00e7ao",
+            "The Country of Cura\u00e7ao"
+        ]
+    },
+    "CXR": {
+        "names": [
+            "Christmas Island",
+            "The Territory of Christmas Island"
+        ]
+    },
+    "CYM": {
+        "names": [
+            "Cayman Islands",
+            "The Cayman Islands"
+        ]
+    },
+    "CYP": {
+        "names": [
+            "Cyprus",
+            "The Republic of Cyprus"
+        ]
+    },
+    "CZE": {
+        "names": [
+            "Czechia",
+            "The Czech Republic"
+        ]
+    },
+    "DEU": {
+        "names": [
+            "Germany",
+            "The Federal Republic of Germany"
+        ]
+    },
+    "DJI": {
+        "names": [
+            "Djibouti",
+            "The Republic of Djibouti"
+        ]
+    },
+    "DMA": {
+        "names": [
+            "Dominica",
+            "The Commonwealth of Dominica"
+        ]
+    },
+    "DNK": {
+        "names": [
+            "Denmark",
+            "The Kingdom of Denmark"
+        ]
+    },
+    "DOM": {
+        "names": [
+            "Dominican Republic",
+            "The Dominican Republic"
+        ]
+    },
+    "DZA": {
+        "names": [
+            "Algeria",
+            "The People's Democratic Republic of Algeria"
+        ]
+    },
+    "ECU": {
+        "names": [
+            "Ecuador",
+            "The Republic of Ecuador"
+        ]
+    },
+    "EGY": {
+        "names": [
+            "Egypt",
+            "The Arab Republic of Egypt"
+        ]
+    },
+    "ERI": {
+        "names": [
+            "Eritrea",
+            "The State of Eritrea"
+        ]
+    },
+    "ESH": {
+        "names": [
+            "Sahrawi Arab Democratic Republic",
+            "Western Sahara",
+            "The Sahrawi Arab Democratic Republic"
+        ]
+    },
+    "ESP": {
+        "names": [
+            "Spain",
+            "The Kingdom of Spain"
+        ]
+    },
+    "EST": {
+        "names": [
+            "Estonia",
+            "The Republic of Estonia"
+        ]
+    },
+    "ETH": {
+        "names": [
+            "Ethiopia",
+            "The Federal Democratic Republic of Ethiopia"
+        ]
+    },
+    "FIN": {
+        "names": [
+            "Finland",
+            "The Republic of Finland"
+        ]
+    },
+    "FJI": {
+        "names": [
+            "Fiji",
+            "The Republic of Fiji"
+        ]
+    },
+    "FLK": {
+        "names": [
+            "Falkland Islands",
+            "Malvinas",
+            "The Falkland Islands"
+        ]
+    },
+    "FRA": {
+        "names": [
+            "Clipperton Island",
+            "France",
+            "The French Republic"
+        ]
+    },
+    "FRO": {
+        "names": [
+            "Faroe Islands",
+            "The Faroe Islands"
+        ]
+    },
+    "FSM": {
+        "names": [
+            "Micronesia",
+            "The Federated States of Micronesia"
+        ]
+    },
+    "GAB": {
+        "names": [
+            "Gabon",
+            "The Gabonese Republic"
+        ]
+    },
+    "GBR": {
+        "names": [
+            "England",
+            "Great Britain",
+            "Northern Ireland",
+            "Scotland",
+            "United Kingdom of Great Britain and Northern Ireland",
+            "Wales",
+            "The United Kingdom of Great Britain and Northern Ireland"
+        ]
+    },
+    "GEO": {
+        "names": [
+            "Georgia"
+        ]
+    },
+    "GGY": {
+        "names": [
+            "Guernsey",
+            "The Bailiwick of Guernsey"
+        ]
+    },
+    "GHA": {
+        "names": [
+            "Ghana",
+            "The Republic of Ghana"
+        ]
+    },
+    "GIB": {
+        "names": [
+            "Gibraltar"
+        ]
+    },
+    "GIN": {
+        "names": [
+            "Guinea",
+            "The Republic of Guinea"
+        ]
+    },
+    "GLP": {
+        "names": [
+            "Guadeloupe"
+        ]
+    },
+    "GMB": {
+        "names": [
+            "Gambia",
+            "The Republic of The Gambia"
+        ]
+    },
+    "GNB": {
+        "names": [
+            "Guinea-Bissau",
+            "The Republic of Guinea-Bissau"
+        ]
+    },
+    "GNQ": {
+        "names": [
+            "Equatorial Guinea",
+            "The Republic of Equatorial Guinea"
+        ]
+    },
+    "GRC": {
+        "names": [
+            "Greece",
+            "The Hellenic Republic"
+        ]
+    },
+    "GRD": {
+        "names": [
+            "Grenada"
+        ]
+    },
+    "GRL": {
+        "names": [
+            "Greenland",
+            "Kalaallit Nunaat"
+        ]
+    },
+    "GTM": {
+        "names": [
+            "Guatemala",
+            "The Republic of Guatemala"
+        ]
+    },
+    "GUF": {
+        "names": [
+            "French Guiana",
+            "Guyane"
+        ]
+    },
+    "GUM": {
+        "names": [
+            "Guam",
+            "The Territory of Guam"
+        ]
+    },
+    "GUY": {
+        "names": [
+            "Guyana",
+            "The Co-operative Republic of Guyana"
+        ]
+    },
+    "HKG": {
+        "names": [
+            "Hong Kong",
+            "The Hong Kong Special Administrative Region of China"
+        ]
+    },
+    "HMD": {
+        "names": [
+            "Heard Island and McDonald Islands",
+            "The Territory of Heard Island and McDonald Islands"
+        ]
+    },
+    "HND": {
+        "names": [
+            "Honduras",
+            "The Republic of Honduras"
+        ]
+    },
+    "HRV": {
+        "names": [
+            "Croatia",
+            "The Republic of Croatia"
+        ]
+    },
+    "HTI": {
+        "names": [
+            "Haiti",
+            "The Republic of Haiti"
+        ]
+    },
+    "HUN": {
+        "names": [
+            "Hungary"
+        ]
+    },
+    "IDN": {
+        "names": [
+            "Indonesia",
+            "The Republic of Indonesia"
+        ]
+    },
+    "IMN": {
+        "names": [
+            "Isle of Man",
+            "The Isle of Man"
+        ]
+    },
+    "IND": {
+        "names": [
+            "India",
+            "The Republic of India"
+        ]
+    },
+    "IOT": {
+        "names": [
+            "British Indian Ocean Territory",
+            "The British Indian Ocean Territory"
+        ]
+    },
+    "IRL": {
+        "names": [
+            "Ireland"
+        ]
+    },
+    "IRN": {
+        "names": [
+            "Iran",
+            "The Islamic Republic of Iran"
+        ]
+    },
+    "IRQ": {
+        "names": [
+            "Iraq",
+            "The Republic of Iraq"
+        ]
+    },
+    "ISL": {
+        "names": [
+            "Iceland"
+        ]
+    },
+    "ISR": {
+        "names": [
+            "Israel",
+            "The State of Israel"
+        ]
+    },
+    "ITA": {
+        "names": [
+            "Italy",
+            "The Italian Republic"
+        ]
+    },
+    "JAM": {
+        "names": [
+            "Jamaica"
+        ]
+    },
+    "JEY": {
+        "names": [
+            "Jersey",
+            "The Bailiwick of Jersey"
+        ]
+    },
+    "JOR": {
+        "names": [
+            "Jordan",
+            "The Hashemite Kingdom of Jordan"
+        ]
+    },
+    "JPN": {
+        "names": [
+            "Japan"
+        ]
+    },
+    "KAZ": {
+        "names": [
+            "Kazakhstan",
+            "The Republic of Kazakhstan"
+        ]
+    },
+    "KEN": {
+        "names": [
+            "Kenya",
+            "The Republic of Kenya"
+        ]
+    },
+    "KGZ": {
+        "names": [
+            "Kyrgyzstan",
+            "The Kyrgyz Republic"
+        ]
+    },
+    "KHM": {
+        "names": [
+            "Cambodia",
+            "The Kingdom of Cambodia"
+        ]
+    },
+    "KIR": {
+        "names": [
+            "Kiribati",
+            "The Republic of Kiribati"
+        ]
+    },
+    "KNA": {
+        "names": [
+            "Saint Kitts and Nevis"
+        ]
+    },
+    "KOR": {
+        "names": [
+            "Republic of Korea",
+            "South Korea",
+            "The Republic of Korea"
+        ]
+    },
+    "KWT": {
+        "names": [
+            "Kuwait",
+            "The State of Kuwait"
+        ]
+    },
+    "LAO": {
+        "names": [
+            "Lao",
+            "The Lao People's Democratic Republic"
+        ]
+    },
+    "LBN": {
+        "names": [
+            "Lebanon",
+            "The Lebanese Republic"
+        ]
+    },
+    "LBR": {
+        "names": [
+            "Liberia",
+            "The Republic of Liberia"
+        ]
+    },
+    "LBY": {
+        "names": [
+            "Libya",
+            "The State of Libya"
+        ]
+    },
+    "LCA": {
+        "names": [
+            "Saint Lucia"
+        ]
+    },
+    "LIE": {
+        "names": [
+            "Liechtenstein",
+            "The Principality of Liechtenstein"
+        ]
+    },
+    "LKA": {
+        "names": [
+            "Sri Lanka",
+            "The Democratic Socialist Republic of Sri Lanka"
+        ]
+    },
+    "LSO": {
+        "names": [
+            "Lesotho",
+            "The Kingdom of Lesotho"
+        ]
+    },
+    "LTU": {
+        "names": [
+            "Lithuania",
+            "The Republic of Lithuania"
+        ]
+    },
+    "LUX": {
+        "names": [
+            "Luxembourg",
+            "The Grand Duchy of Luxembourg"
+        ]
+    },
+    "LVA": {
+        "names": [
+            "Latvia",
+            "The Republic of Latvia"
+        ]
+    },
+    "MAC": {
+        "names": [
+            "Macao",
+            "Macao Special Administrative Region of China"
+        ]
+    },
+    "MAF": {
+        "names": [
+            "Saint Martin",
+            "The Collectivity of Saint-Martin"
+        ]
+    },
+    "MAR": {
+        "names": [
+            "Morocco",
+            "The Kingdom of Morocco"
+        ]
+    },
+    "MCO": {
+        "names": [
+            "Monaco",
+            "The Principality of Monaco"
+        ]
+    },
+    "MDA": {
+        "names": [
+            "Moldova",
+            "The Republic of Moldova"
+        ]
+    },
+    "MDG": {
+        "names": [
+            "Madagascar",
+            "The Republic of Madagascar"
+        ]
+    },
+    "MDV": {
+        "names": [
+            "Maldives",
+            "The Republic of Maldives"
+        ]
+    },
+    "MEX": {
+        "names": [
+            "Mexico",
+            "The United Mexican States"
+        ]
+    },
+    "MHL": {
+        "names": [
+            "Marshall Islands",
+            "The Republic of the Marshall Islands"
+        ]
+    },
+    "MKD": {
+        "names": [
+            "North Macedonia",
+            "Macedonia",
+            "Republic of North Macedonia"
+        ]
+    },
+    "MLI": {
+        "names": [
+            "Mali",
+            "The Republic of Mali"
+        ]
+    },
+    "MLT": {
+        "names": [
+            "Malta",
+            "The Republic of Malta"
+        ]
+    },
+    "MMR": {
+        "names": [
+            "Burma",
+            "Myanmar",
+            "The Republic of the Union of Myanmar"
+        ]
+    },
+    "MNE": {
+        "names": [
+            "Montenegro"
+        ]
+    },
+    "MNG": {
+        "names": [
+            "Mongolia",
+            "The State of Mongolia"
+        ]
+    },
+    "MNP": {
+        "names": [
+            "Northern Mariana Islands",
+            "The Commonwealth of the Northern Mariana Islands"
+        ]
+    },
+    "MOZ": {
+        "names": [
+            "Mozambique",
+            "The Republic of Mozambique"
+        ]
+    },
+    "MRT": {
+        "names": [
+            "Mauritania",
+            "The Islamic Republic of Mauritania"
+        ]
+    },
+    "MSR": {
+        "names": [
+            "Montserrat"
+        ]
+    },
+    "MTQ": {
+        "names": [
+            "Martinique"
+        ]
+    },
+    "MUS": {
+        "names": [
+            "Mauritius",
+            "The Republic of Mauritius"
+        ]
+    },
+    "MWI": {
+        "names": [
+            "Malawi",
+            "The Republic of Malawi"
+        ]
+    },
+    "MYS": {
+        "names": [
+            "Malaysia"
+        ]
+    },
+    "MYT": {
+        "names": [
+            "Mayotte",
+            "The Department of Mayotte"
+        ]
+    },
+    "NAM": {
+        "names": [
+            "Namibia",
+            "The Republic of Namibia"
+        ]
+    },
+    "NCL": {
+        "names": [
+            "New Caledonia"
+        ]
+    },
+    "NER": {
+        "names": [
+            "Niger",
+            "The Republic of the Niger"
+        ]
+    },
+    "NFK": {
+        "names": [
+            "Norfolk Island",
+            "The Territory of Norfolk Island"
+        ]
+    },
+    "NGA": {
+        "names": [
+            "Nigeria",
+            "The Federal Republic of Nigeria"
+        ]
+    },
+    "NIC": {
+        "names": [
+            "Nicaragua",
+            "The Republic of Nicaragua"
+        ]
+    },
+    "NIU": {
+        "names": [
+            "Niue"
+        ]
+    },
+    "NLD": {
+        "names": [
+            "Netherlands",
+            "The Kingdom of the Netherlands"
+        ]
+    },
+    "NOR": {
+        "names": [
+            "Norway",
+            "The Kingdom of Norway"
+        ]
+    },
+    "NPL": {
+        "names": [
+            "Nepal",
+            "The Federal Democratic Republic of Nepal"
+        ]
+    },
+    "NRU": {
+        "names": [
+            "Nauru",
+            "The Republic of Nauru"
+        ]
+    },
+    "NZL": {
+        "names": [
+            "New Zealand"
+        ]
+    },
+    "OMN": {
+        "names": [
+            "Oman",
+            "The Sultanate of Oman"
+        ]
+    },
+    "PAK": {
+        "names": [
+            "Pakistan",
+            "The Islamic Republic of Pakistan"
+        ]
+    },
+    "PAN": {
+        "names": [
+            "Panama",
+            "The Republic of Panam\u00e1"
+        ]
+    },
+    "PCN": {
+        "names": [
+            "Pitcairn",
+            "The Pitcairn, Henderson, Ducie and Oeno Islands"
+        ]
+    },
+    "PER": {
+        "names": [
+            "Peru",
+            "The Republic of Per\u00fa"
+        ]
+    },
+    "PHL": {
+        "names": [
+            "Philippines",
+            "The Republic of the Philippines"
+        ]
+    },
+    "PLW": {
+        "names": [
+            "Palau",
+            "The Republic of Palau"
+        ]
+    },
+    "PNG": {
+        "names": [
+            "Papua New Guinea",
+            "The Independent State of Papua New Guinea"
+        ]
+    },
+    "POL": {
+        "names": [
+            "Poland",
+            "The Republic of Poland"
+        ]
+    },
+    "PRI": {
+        "names": [
+            "Puerto Rico",
+            "The Commonwealth of Puerto Rico"
+        ]
+    },
+    "PRK": {
+        "names": [
+            "Democratic People's Republic of Korea",
+            "North Korea",
+            "The Democratic People's Republic of Korea"
+        ]
+    },
+    "PRT": {
+        "names": [
+            "Portugal",
+            "The Portuguese Republic"
+        ]
+    },
+    "PRY": {
+        "names": [
+            "Paraguay",
+            "The Republic of Paraguay"
+        ]
+    },
+    "PSE": {
+        "names": [
+            "Palestine, State of",
+            "The State of Palestine"
+        ]
+    },
+    "PYF": {
+        "names": [
+            "French Polynesia"
+        ]
+    },
+    "QAT": {
+        "names": [
+            "Qatar",
+            "The State of Qatar"
+        ]
+    },
+    "REU": {
+        "names": [
+            "R\u00e9union"
+        ]
+    },
+    "ROU": {
+        "names": [
+            "Romania"
+        ]
+    },
+    "RUS": {
+        "names": [
+            "Russian Federation",
+            "The Russian Federation"
+        ]
+    },
+    "RWA": {
+        "names": [
+            "Rwanda",
+            "The Republic of Rwanda"
+        ]
+    },
+    "SAU": {
+        "names": [
+            "Saudi Arabia",
+            "The Kingdom of Saudi Arabia"
+        ]
+    },
+    "SDN": {
+        "names": [
+            "Sudan",
+            "The Republic of the Sudan"
+        ]
+    },
+    "SEN": {
+        "names": [
+            "Senegal",
+            "The Republic of Senegal"
+        ]
+    },
+    "SGP": {
+        "names": [
+            "Singapore",
+            "The Republic of Singapore"
+        ]
+    },
+    "SGS": {
+        "names": [
+            "South Georgia and the South Sandwich Islands"
+        ]
+    },
+    "SHN": {
+        "names": [
+            "Saint Helena, Ascension and Tristan da Cunha"
+        ]
+    },
+    "SJM": {
+        "names": [
+            "Jan Mayen",
+            "Svalbard",
+            "Svalbard and Jan Mayen"
+        ]
+    },
+    "SLB": {
+        "names": [
+            "Solomon Islands",
+            "The Solomon Islands"
+        ]
+    },
+    "SLE": {
+        "names": [
+            "Sierra Leone",
+            "The Republic of Sierra Leone"
+        ]
+    },
+    "SLV": {
+        "names": [
+            "El Salvador",
+            "The Republic of El Salvador"
+        ]
+    },
+    "SMR": {
+        "names": [
+            "San Marino",
+            "The Republic of San Marino"
+        ]
+    },
+    "SOM": {
+        "names": [
+            "Somalia",
+            "The Federal Republic of Somalia"
+        ]
+    },
+    "SPM": {
+        "names": [
+            "Saint Pierre and Miquelon",
+            "The Overseas Collectivity of Saint-Pierre and Miquelon"
+        ]
+    },
+    "SRB": {
+        "names": [
+            "Serbia",
+            "The Republic of Serbia"
+        ]
+    },
+    "SSD": {
+        "names": [
+            "South Sudan",
+            "The Republic of South Sudan"
+        ]
+    },
+    "STP": {
+        "names": [
+            "Sao Tome and Principe",
+            "The Democratic Republic of S\u00e3o Tom\u00e9 and Pr\u00edncipe"
+        ]
+    },
+    "SUR": {
+        "names": [
+            "Suriname",
+            "The Republic of Suriname"
+        ]
+    },
+    "SVK": {
+        "names": [
+            "Slovakia",
+            "The Slovak Republic"
+        ]
+    },
+    "SVN": {
+        "names": [
+            "Slovenia",
+            "The Republic of Slovenia"
+        ]
+    },
+    "SWE": {
+        "names": [
+            "Sweden",
+            "The Kingdom of Sweden"
+        ]
+    },
+    "SWZ": {
+        "names": [
+            "Eswatini",
+            "The Kingdom of Eswatini"
+        ]
+    },
+    "SXM": {
+        "names": [
+            "Sint Maarten"
+        ]
+    },
+    "SYC": {
+        "names": [
+            "Seychelles",
+            "The Republic of Seychelles"
+        ]
+    },
+    "SYR": {
+        "names": [
+            "Syrian Arab Republic",
+            "The Syrian Arab Republic"
+        ]
+    },
+    "TCA": {
+        "names": [
+            "Turks and Caicos Islands",
+            "The Turks and Caicos Islands"
+        ]
+    },
+    "TCD": {
+        "names": [
+            "Chad",
+            "The Republic of Chad"
+        ]
+    },
+    "TGO": {
+        "names": [
+            "Togo",
+            "The Togolese Republic"
+        ]
+    },
+    "THA": {
+        "names": [
+            "Thailand",
+            "The Kingdom of Thailand"
+        ]
+    },
+    "TJK": {
+        "names": [
+            "Tajikistan",
+            "The Republic of Tajikistan"
+        ]
+    },
+    "TKL": {
+        "names": [
+            "Tokelau"
+        ]
+    },
+    "TKM": {
+        "names": [
+            "Turkmenistan"
+        ]
+    },
+    "TLS": {
+        "names": [
+            "East Timor",
+            "Timor-Leste",
+            "The Democratic Republic of Timor-Leste"
+        ]
+    },
+    "TON": {
+        "names": [
+            "Tonga",
+            "The Kingdom of Tonga"
+        ]
+    },
+    "TTO": {
+        "names": [
+            "Trinidad and Tobago",
+            "The Republic of Trinidad and Tobago"
+        ]
+    },
+    "TUN": {
+        "names": [
+            "Tunisia",
+            "The Republic of Tunisia"
+        ]
+    },
+    "TUR": {
+        "names": [
+            "Turkey",
+            "The Republic of Turkey"
+        ]
+    },
+    "TUV": {
+        "names": [
+            "Tuvalu"
+        ]
+    },
+    "TWN": {
+        "names": [
+            "The Republic of China",
+            "Republic of China",
+            "Taiwan"
+        ]
+    },
+    "TZA": {
+        "names": [
+            "Tanzania, the United Republic of",
+            "The United Republic of Tanzania"
+        ]
+    },
+    "UGA": {
+        "names": [
+            "Uganda",
+            "The Republic of Uganda"
+        ]
+    },
+    "UKR": {
+        "names": [
+            "Ukraine"
+        ]
+    },
+    "UMI": {
+        "names": [
+            "United States Minor Outlying Islands",
+            "Baker Island",
+            "Howland Island",
+            "Jarvis Island",
+            "Johnston Atoll",
+            "Kingman Reef",
+            "Midway Atoll,",
+            "Navassa Island",
+            "Palmyra Atoll",
+            "Wake Island"
+        ]
+    },
+    "URY": {
+        "names": [
+            "Uruguay",
+            "The Oriental Republic of Uruguay"
+        ]
+    },
+    "USA": {
+        "names": [
+            "Hawaii",
+            "United States of America",
+            "United States",
+            "USA",
+            "United States Virgin Islands",
+            "The United States of America",
+            "Alabama",
+            "Alaska",
+            "Arizona",
+            "Arkansas",
+            "California",
+            "Colorado",
+            "Connecticut",
+            "Delaware",
+            "Florida",
+            "Idaho",
+            "Illinois",
+            "Indiana",
+            "Iowa",
+            "Kansas",
+            "Kentucky",
+            "Louisiana",
+            "Maine",
+            "Maryland",
+            "Massachusetts",
+            "Michigan",
+            "Minnesota",
+            "Mississippi",
+            "Missouri",
+            "Montana",
+            "Nebraska",
+            "Nevada",
+            "New Hampshire",
+            "New Jersey",
+            "New Mexico",
+            "New York",
+            "North Carolina",
+            "North Dakota",
+            "Ohio",
+            "Oklahoma",
+            "Oregon",
+            "Pennsylvania",
+            "Rhode Island",
+            "South Carolina",
+            "South Dakota",
+            "Tennessee",
+            "Texas",
+            "Utah",
+            "Vermont",
+            "Virginia",
+            "Washington",
+            "West Virginia",
+            "Wisconsin",
+            "Wyoming"
+        ]
+    },
+    "UZB": {
+        "names": [
+            "Uzbekistan",
+            "The Republic of Uzbekistan"
+        ]
+    },
+    "VAT": {
+        "names": [
+            "Holy See",
+            "Vatican City",
+            "The Holy See"
+        ]
+    },
+    "VCT": {
+        "names": [
+            "Saint Vincent and the Grenadines"
+        ]
+    },
+    "VEN": {
+        "names": [
+            "Venezuela",
+            "The Bolivarian Republic of Venezuela"
+        ]
+    },
+    "VGB": {
+        "names": [
+            "British Virgin Islands",
+            "Virgin Islands",
+            "The Virgin Islands"
+        ]
+    },
+    "VIR": {
+        "names": [
+            "US Virgin Islands",
+            "The Virgin Islands of the United States"
+        ]
+    },
+    "VNM": {
+        "names": [
+            "Viet Nam",
+            "Vietnam",
+            "The Socialist Republic of Viet Nam"
+        ]
+    },
+    "VUT": {
+        "names": [
+            "Vanuatu",
+            "The Republic of Vanuatu"
+        ]
+    },
+    "WLF": {
+        "names": [
+            "Wallis and Futuna",
+            "The Territory of the Wallis and Futuna Islands"
+        ]
+    },
+    "WSM": {
+        "names": [
+            "Samoa",
+            "The Independent State of Samoa"
+        ]
+    },
+    "YEM": {
+        "names": [
+            "Yemen",
+            "The Republic of Yemen"
+        ]
+    },
+    "ZAF": {
+        "names": [
+            "South Africa",
+            "The Republic of South Africa"
+        ]
+    },
+    "ZMB": {
+        "names": [
+            "Zambia",
+            "The Republic of Zambia"
+        ]
+    },
+    "ZWE": {
+        "names": [
+            "Zimbabwe",
+            "The Republic of Zimbabwe"
+        ]
+    }
 }

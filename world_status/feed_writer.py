@@ -1,5 +1,6 @@
 from elasticsearch.helpers import bulk, BulkIndexError
 from hashlib import md5
+from world_status import config
 from world_status.es import get_elasticsearch, declare_schema
 from world_status.indices.article import Article
 from world_status.log import log
@@ -28,7 +29,7 @@ class FeedWriter:
         results = []
 
         for i in feed_contents:
-            if i['url'] in successes:
+            if i['url'] in successes or config.DEBUG:
                 results.append(i)
 
         return results
