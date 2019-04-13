@@ -1,7 +1,7 @@
 import React from 'react';
 import Map from "./views/map"
 import {listen} from "./listener";
-import {getPolarity, getPolarityColor} from "./util";
+import {getPolarizingValue, getPolarityColor} from "./util";
 
 class App extends React.Component {
   constructor(props) {
@@ -31,7 +31,7 @@ class App extends React.Component {
 
   render() {
     const articleList = this.state.articles.map((article) => {
-      const polarity = getPolarity(article)
+      const polarity = getPolarizingValue(article, "polarity")
       const color = getPolarityColor(polarity)
 
       return (

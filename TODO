@@ -1,11 +1,13 @@
 Major line items
 ----------------
-streamer - filter schema {"tags": [], "countries": [], "terms": []}
-UI
+- search by tag, country, term
+- Make job async
+- better classification
+- tag cloud
+- sentiment/polarity over time
 
 Nice to haves
 -----------------------
-job logging
 tf-idf extractor
 subject extractor
 categorization

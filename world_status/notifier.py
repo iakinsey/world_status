@@ -104,7 +104,7 @@ def get_es_query(filter):
             }
         },
         'from': 0,
-        'size': 1000,
+        'size': 10000,
         "sort": [
             {"created": "desc"}
         ],

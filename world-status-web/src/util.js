@@ -1,11 +1,11 @@
-export function getPolarity(article) {
-  const polarities = [
-      article.content_polarity,
-      article.summary_polarity,
-      article.title_polarity
+export function getPolarizingValue(article, key) {
+  const values = [
+      article["content_" + key],
+      article["summary_" + key],
+      article["title_" + key]
   ].filter((n) => !isNaN(n))
-  const max = Math.max(...polarities)
-  const min = Math.min(...polarities)
+  const max = Math.max(...values)
+  const min = Math.min(...values)
   const maxDistance = 1 - max
   const minDistance = 1 + min
    
@@ -14,7 +14,7 @@ export function getPolarity(article) {
   } else if (maxDistance < minDistance) {
       return max
   } else if (maxDistance === minDistance && maxDistance !== 0) {
-    return polarities.reduce((t, n) => t + n) / polarities.length
+    return values.reduce((t, n) => t + n) / values.length
   }
 
   return 0

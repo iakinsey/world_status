@@ -1,6 +1,6 @@
 /*global Datamap*/
 import React from 'react';
-import {getPolarity, getPolarityColor} from '../util'
+import {getPolarityColor, getPolarizingValue} from '../util'
 
 
 class Map extends React.Component {
@@ -36,7 +36,7 @@ class Map extends React.Component {
         return
     }
 
-    const polarity = getPolarity(article)
+    const polarity = getPolarizingValue(article, "polarity")
 
     for (var i = 0; i < countries.length; i++) {
         var country = countries[i]
