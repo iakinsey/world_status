@@ -6,6 +6,7 @@ from warnings import catch_warnings, simplefilter
 from world_status import config
 from world_status.country import CountryMetaExtractor
 from world_status.log import log
+from world_status.terms import get_ngrams
 
 
 def get_content(url):
@@ -56,7 +57,9 @@ class EntityContentExtractor:
             self.analyze_tags(tags)
 
         if self.all_text_list:
-            self.entity['all_text'] = "; ".join(self.all_text_list)
+            all_text = "; ".join(self.all_text_list)
+            self.entity['all_text'] = all_text
+            self.entity['ngrams'] = list(get_ngrams(all_text))
             self.analyze_countries()
 
         return self.entity

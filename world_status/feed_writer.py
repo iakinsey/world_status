@@ -42,5 +42,4 @@ class FeedWriter:
                 '_op_type': 'create',
                 "_id": pkey,
                 "_index": Article.name,
-                "_type": Article.doc_type
             }

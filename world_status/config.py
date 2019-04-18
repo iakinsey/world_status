@@ -9,6 +9,7 @@ from os.path import abspath, dirname, join, realpath
 PROJECT_ROOT = abspath(dirname(dirname(realpath(__file__))))
 DATA_DIR = join(PROJECT_ROOT, 'config')
 COUNTRY_NAME_PATH = join(DATA_DIR, 'countries.json')
+IGNORE_WORDS_PATH = join(DATA_DIR, 'ignore_words.json')
 DEBUG = False
 
 ###############################################################################
@@ -25,6 +26,8 @@ RSS_FEEDS = [
     'http://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml',
     'http://feeds.bbci.co.uk/news/rss.xml',
     'http://feeds.bbci.co.uk/news/science_and_environment/rss.xml',
+]
+"""
     'http://feeds.bbci.co.uk/news/technology/rss.xml',
     'http://feeds.bbci.co.uk/news/world/rss.xml',
     'http://feeds.feedburner.com/JamesFallows',
@@ -178,7 +181,7 @@ RSS_FEEDS = [
     'https://www.yahoo.com/news/rss/',
     'https://www.yahoo.com/news/rss/world'
 ]
-
+"""
 
 ES_CLUSTER = ['localhost:9200']
 
