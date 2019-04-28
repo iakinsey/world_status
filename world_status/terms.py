@@ -42,7 +42,7 @@ def get_ngrams(text, n=3):
         tokens = word_tokenize(section)
 
         for ngram in ngrams(tokens, n):
-            result = ".".join(ngram)
+            result = "0000".join(ngram)
 
-            if '.' in result:
+            if '0000' in result:
                 yield result

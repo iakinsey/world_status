@@ -8,6 +8,7 @@ from websockets import serve
 from world_status import config
 from world_status.indices.article import Article
 from world_status.log import log
+from world_status.queries import get_articles, get_prominent_terms
 from zmq import PULL
 from zmq.asyncio import Context
 
@@ -62,58 +63,6 @@ def message_is_relevant(message, filter):
     return matches_term and matches_country and matches_tag
 
 
-def get_es_query(filter):
-    should = []
-    tag_filter = filter.get("tags", [])
-    country_filter = filter.get("countries", [])
-    term_filter = filter.get("terms", [])
-
-    term_queries = []
-    country_queries = []
-    tag_queries = []
-
-    for term in term_filter:
-        term_queries.append({"match": {"all_text": {"query": term}}})
-
-    for country in country_filter:
-        country_queries.append({
-            "match_phrase": {"countries": country}
-        })
-
-    for tag in tag_filter:
-        tag_queries.append({
-            "match_phrase": {"tags": tag}
-        })
-
-    for query in [term_queries, country_queries, tag_queries]:
-        if not query:
-            continue
-
-        should.append({
-            "bool": {"must": query}
-        })
-
-    return {
-        'query': {
-            'constant_score': {
-                'filter': {
-                    'bool': {
-                        'should': should
-                    }
-                }
-            }
-        },
-        'from': 0,
-        'size': 10000,
-        "sort": [
-            {"created": "desc"}
-        ],
-        "_source": {
-            "exclude": ["all_text"]
-        }
-    }
-
-
 def register_queue(uuid, queue, path):
     QUEUES[uuid] = {
         "queue": queue,
@@ -140,7 +89,7 @@ async def publish_message(message):
 
 async def send_initial_messages(uuid, websocket):
     filter = QUEUES[uuid]['filter']
-    es_query = get_es_query(filter)
+    es_query = get_articles(filter)
     es = AsyncElasticsearch(hosts=config.ES_CLUSTER)
     results = await es.search(index=Article.name, body=es_query)
     data = results['hits']['hits']
@@ -151,10 +100,35 @@ async def send_initial_messages(uuid, websocket):
             "data": message['_source']
         }))
 
+    await send_tag_cloud(uuid, websocket)
+
+
+async def send_tag_cloud(uuid, websocket):
+    filter = QUEUES[uuid]['filter']
+    es_query = get_prominent_terms(filter)
+    import pprint
+    pprint.pprint(es_query)
+    es = AsyncElasticsearch(hosts=config.ES_CLUSTER)
+    results = await es.search(index=Article.name, body=es_query)
+    data = results['aggregations']['tagcloud']['buckets']
+    results = []
+
+    for entity in data:
+        results.append({
+            "count": entity['doc_count'],
+            "term": entity['key'].replace('0', ' ')
+        })
+
+    await websocket.send(dumps({
+        "message_type": "tag_cloud",
+        "data": results
+    }))
+
 
 async def producer_handler(websocket, path):
     queue = Queue(loop=get_event_loop())
     uuid = str(uuid4())
+    count = 0
 
     register_queue(uuid, queue, path)
     await send_initial_messages(uuid, websocket)
@@ -162,7 +136,15 @@ async def producer_handler(websocket, path):
     try:
         while 1:
             msg = await queue.get()
+
             await websocket.send(dumps(msg))
+
+            count += 1
+
+            if count == 100:
+                count = 0
+                await send_tag_cloud(uuid, websocket)
+
     finally:
         unregister_queue(uuid)
 

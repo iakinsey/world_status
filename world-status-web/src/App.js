@@ -1,57 +1,40 @@
 import React from 'react';
 import Map from "./views/map"
+import ArticleFeed from "./views/feed"
 import {listen} from "./listener";
 import {getPolarizingValue, getPolarityColor} from "./util";
 
 class App extends React.Component {
   constructor(props) {
     super(props)
-    this.state = {
-      articles: []
+    this.state = {}
+    this.listeners = {
+        article: [],
+        tag_cloud: []
     }
-    this.listeners = {}
+
     listen({}, (msg) => this.handleMessage(msg))
   }
 
   handleMessage(msg) {
     const data = JSON.parse(msg.data)
+    const listeners = this.listeners[data.message_type]
 
-    if (data.message_type === "article") {
-        this.state.articles.unshift(data.data)
+    if (!listeners) {
+        return
+    }
 
-        var newArticles = this.state.articles.slice(0, 50)
-
-        this.setState({"articles": newArticles})
-
-        if (this.listeners.worldMap) {
-            this.listeners.worldMap(data.data);
-        }
+    for (var i = 0; i < listeners.length; i += 1) {
+        var listener = listeners[i]
+        listener(data.data)
     }
   }
 
   render() {
-    const articleList = this.state.articles.map((article) => {
-      const polarity = getPolarizingValue(article, "polarity")
-      const color = getPolarityColor(polarity)
-
-      return (
-        <div key={article.url}> 
-          <a 
-           href={article.url}
-           style={{
-             color: color,
-             textDecoration: 'none'
-           }}>
-           {article.title_text}
-          </a>
-        </div>
-      )
-     })
-
     return (
       <span>
         <Map listeners={this.listeners} />
-        {articleList}
+        <ArticleFeed listeners={this.listeners} />
       </span>
     )
   }

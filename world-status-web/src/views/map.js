@@ -9,7 +9,7 @@ class Map extends React.Component {
     this.queue = []
     this.totals = {}
     this.counts = {}
-    props.listeners.worldMap = (i) => this.addMapItem(i)
+    props.listeners.article.push((i) => this.addMapItem(i))
   }
  
   addMapItem(item) {
@@ -52,9 +52,6 @@ class Map extends React.Component {
         var color = getPolarityColor(average)
         var updateDict = {}
         updateDict[country] = color
-        console.log(average)
-        console.log(color)
-        console.log(updateDict)
         this.map.updateChoropleth(updateDict)
     }
   }
