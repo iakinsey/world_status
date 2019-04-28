@@ -184,6 +184,7 @@ RSS_FEEDS = [
 """
 
 ES_CLUSTER = ['localhost:9200']
+TERM_DELIMITER = "0000"
 
 
 DEFAULT_TTL = 60

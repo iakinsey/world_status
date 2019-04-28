@@ -1,6 +1,7 @@
 import React from 'react';
 import Map from "./views/map"
 import ArticleFeed from "./views/feed"
+import TagCloudView from "./views/tag_cloud"
 import {listen} from "./listener";
 import {getPolarizingValue, getPolarityColor} from "./util";
 
@@ -34,7 +35,14 @@ class App extends React.Component {
     return (
       <span>
         <Map listeners={this.listeners} />
-        <ArticleFeed listeners={this.listeners} />
+        <div>
+            <div style={{width: "50%", "float": "right"}}>
+                <TagCloudView listeners={this.listeners} />
+            </div>
+            <div style={{width: "50%", "float": "left"}}>
+                <ArticleFeed listeners={this.listeners} />
+            </div>
+        </div>
       </span>
     )
   }

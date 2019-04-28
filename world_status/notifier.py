@@ -116,7 +116,7 @@ async def send_tag_cloud(uuid, websocket):
     for entity in data:
         results.append({
             "count": entity['doc_count'],
-            "term": entity['key'].replace('0', ' ')
+            "term": entity['key'].replace(config.TERM_DELIMITER, ' ')
         })
 
     await websocket.send(dumps({
