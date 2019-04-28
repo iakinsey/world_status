@@ -106,8 +106,6 @@ async def send_initial_messages(uuid, websocket):
 async def send_tag_cloud(uuid, websocket):
     filter = QUEUES[uuid]['filter']
     es_query = get_prominent_terms(filter)
-    import pprint
-    pprint.pprint(es_query)
     es = AsyncElasticsearch(hosts=config.ES_CLUSTER)
     results = await es.search(index=Article.name, body=es_query)
     data = results['aggregations']['tagcloud']['buckets']

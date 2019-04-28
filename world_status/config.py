@@ -26,8 +26,6 @@ RSS_FEEDS = [
     'http://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml',
     'http://feeds.bbci.co.uk/news/rss.xml',
     'http://feeds.bbci.co.uk/news/science_and_environment/rss.xml',
-]
-"""
     'http://feeds.bbci.co.uk/news/technology/rss.xml',
     'http://feeds.bbci.co.uk/news/world/rss.xml',
     'http://feeds.feedburner.com/JamesFallows',
@@ -181,7 +179,6 @@ RSS_FEEDS = [
     'https://www.yahoo.com/news/rss/',
     'https://www.yahoo.com/news/rss/world'
 ]
-"""
 
 ES_CLUSTER = ['localhost:9200']
 TERM_DELIMITER = "0000"

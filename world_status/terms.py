@@ -3,7 +3,7 @@ from nltk import download, pos_tag, word_tokenize, ngrams
 from pathlib import Path
 from os.path import exists, join
 from re import compile, split, sub
-from world_status.config import IGNORE_WORDS_PATH
+from world_status import config
 
 
 if not exists(join(Path.home(), 'nltk_data')):
@@ -11,7 +11,7 @@ if not exists(join(Path.home(), 'nltk_data')):
 
 
 USEFUL_TAGS = set(["NNP"])
-IGNORE_WORDS = set(loads(open(IGNORE_WORDS_PATH).read()))
+IGNORE_WORDS = set(loads(open(config.IGNORE_WORDS_PATH).read()))
 STOP_PUNCTUATION = ":;,.!?"
 PUNCTUATION_PATTERN = compile(''.join([
     "[\\",
