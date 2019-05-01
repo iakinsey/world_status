@@ -10,6 +10,7 @@ PROJECT_ROOT = abspath(dirname(dirname(realpath(__file__))))
 DATA_DIR = join(PROJECT_ROOT, 'config')
 COUNTRY_NAME_PATH = join(DATA_DIR, 'countries.json')
 IGNORE_WORDS_PATH = join(DATA_DIR, 'ignore_words.json')
+USELESS_TERMS_PATH = join(DATA_DIR, 'ngram_useless_terms.json')
 DEBUG = False
 
 ###############################################################################
