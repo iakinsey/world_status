@@ -12,7 +12,7 @@ if not exists(join(Path.home(), 'nltk_data')):
 
 
 USEFUL_TAGS = set(["NNP"])
-BAD_TAGS = set(["JJ", "IN", "DT", "RBR", "RB"])
+BAD_TAGS = set(["JJ", "IN", "DT", "RBR", "RB", "NN", "PRP", "VBP", "TO"])
 IGNORE_WORDS = set(loads(open(config.IGNORE_WORDS_PATH).read()))
 USELESS_TERMS = set(loads(open(config.USELESS_TERMS_PATH).read()))
 STOP_PUNCTUATION = ":;,.!?"
