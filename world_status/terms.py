@@ -12,9 +12,13 @@ if not exists(join(Path.home(), 'nltk_data')):
 
 
 USEFUL_TAGS = set(["NNP"])
-BAD_TAGS = set(["JJ", "IN", "DT", "RBR", "RB", "PRP", "VBP", "TO", "WRB", "VBZ"])
+BAD_TAGS = set([
+    "JJ", "IN", "DT", "RBR", "RB", "PRP", "VBP", "TO", "WRB", "VBZ", "CC",
+    "MD", "VB", "VDB", "EX"
+])
 IGNORE_WORDS = set(loads(open(config.IGNORE_WORDS_PATH).read()))
 USELESS_TERMS = set(loads(open(config.USELESS_TERMS_PATH).read()))
+BAD_NGRAMS = set(loads(open(config.BAD_NGRAMS_PATH).read()))
 STOP_PUNCTUATION = ":;,.!?"
 PUNCTUATION_PATTERN = compile(''.join([
     "[\\",
@@ -33,10 +37,14 @@ def get_useful_terms(text):
 
     return " ".join(useful_words)
 
+
 def contains_too_many_useless_words(ngram):
     fragment = " ".join(ngram)
     max_useless_word_count = ceil(len(ngram) * .5)
     count = 0
+
+    if fragment in BAD_NGRAMS:
+        return True
 
     for term, tag in pos_tag(word_tokenize(fragment)):
         if tag in BAD_TAGS or len(term) <= 2 or term in USELESS_TERMS:
