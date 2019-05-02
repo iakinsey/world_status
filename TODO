@@ -1,10 +1,6 @@
 Major line items
 ----------------
 
-- bigrams (exclude bad words)
-- exclude unimportant words from n-grams
-- refresh if websocket disconnects
-
 - search by tag, country, term
 - Make job async
 - better classification

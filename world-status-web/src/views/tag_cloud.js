@@ -14,7 +14,6 @@ class TagCloudView extends React.Component {
   }
 
   updateCloud(tags) {
-      console.log(tags)
       this.setState({tags: tags})
   }
 
