@@ -3,7 +3,6 @@ import Map from "./views/map"
 import ArticleFeed from "./views/feed"
 import TagCloudView from "./views/tag_cloud"
 import {listen} from "./listener";
-import {getPolarizingValue, getPolarityColor} from "./util";
 
 class App extends React.Component {
   constructor(props) {

@@ -2,8 +2,9 @@ module.exports.listen = function (filter, callback) {
     initiateWebsocket(filter, callback)
 }
 
+
 function initiateWebsocket(filter, callback) {
-    var url = "ws://127.0.0.1:5321" + "/" + getFilter(filter);
+    var url = "ws://127.0.0.1:5321/" + getFilter(filter);
     const ws = new WebSocket(url);
 
     ws.onmessage = (event) => {
