@@ -2,7 +2,6 @@ Major line items
 ----------------
 
 - datetime filter
-- async job
 - search by tag, country, term
 - better classification
 - sentiment/polarity over time

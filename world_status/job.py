@@ -1,3 +1,4 @@
+from concurrent.futures import ThreadPoolExecutor
 from time import sleep
 from world_status import config
 from world_status.indices.article import Article
@@ -10,6 +11,7 @@ from world_status.publisher import Publisher
 
 class FeedIngestionJob:
     def __init__(self):
+        self.thread_count = config.STATUS_JOB_THREAD_COUNT
         self.feed_manager = FeedManager(config.RSS_FEEDS)
         self.feed_writer = FeedWriter()
         self.publisher = Publisher(
@@ -35,17 +37,17 @@ class FeedIngestionJob:
 
     def do_work(self):
         feeds = self.feed_manager.feeds_with_expired_ttls
-        feed_count = len(feeds)
 
-        if feed_count:
-            log.info("Processing {} feeds".format(feed_count))
+        with ThreadPoolExecutor(max_workers=self.thread_count) as executor:
+            executor.map(self.get_content_notify_and_save, feeds)
 
-        for url in feeds:
-            content = get_content(url)
-            new_content = self.feed_writer.save(content)
+    def get_content_notify_and_save(self, url):
+        content = get_content(url)
+        new_content = self.feed_writer.save(content)
 
-            self.feed_manager.update_last_run_time(url)
+        self.feed_manager.update_last_run_time(url)
 
-            log.info("Publishing {} messages".format(len(new_content)))
-            for content in new_content:
-                self.publisher.publish(content, "article")
+        log.info("Publishing {} messages".format(len(new_content)))
+
+        for content in new_content:
+            self.publisher.publish(content, "article")

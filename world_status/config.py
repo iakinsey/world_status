@@ -1,3 +1,4 @@
+from multiprocessing import cpu_count
 from os.path import abspath, dirname, join, realpath
 
 
@@ -12,7 +13,16 @@ COUNTRY_NAME_PATH = join(DATA_DIR, 'countries.json')
 IGNORE_WORDS_PATH = join(DATA_DIR, 'ignore_words.json')
 USELESS_TERMS_PATH = join(DATA_DIR, 'ngram_useless_terms.json')
 BAD_NGRAMS_PATH = join(DATA_DIR, 'bad_ngrams.json')
+
+
+###############################################################################
+# System stuff
+###############################################################################
+
+
 DEBUG = False
+STATUS_JOB_THREAD_COUNT = cpu_count() * 2
+
 
 ###############################################################################
 # Feeds
