@@ -93,7 +93,7 @@ async def send_initial_messages(uuid, websocket):
     if filter.get("send_initial_messages") == False:
         return
 
-    es_query = get_articles(filter)
+    es_query = get_articles(filter, size=100)
     es = AsyncElasticsearch(hosts=config.ES_CLUSTER)
     results = await es.search(index=Article.name, body=es_query)
     data = results['hits']['hits']

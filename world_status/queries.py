@@ -16,7 +16,7 @@ def get_prominent_terms(filter=None, size=25):
     return query
 
 
-def get_articles(filter):
+def get_articles(filter, size=10000):
     should = []
     tag_filter = filter.get("tags", [])
     country_filter = filter.get("countries", [])
@@ -58,7 +58,7 @@ def get_articles(filter):
             }
         },
         'from': 0,
-        'size': 10000,
+        'size': size,
         "sort": [
             {"created": "desc"}
         ],

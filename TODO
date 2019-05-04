@@ -1,10 +1,10 @@
 Major line items
 ----------------
 
+- datetime filter
+- async job
 - search by tag, country, term
-- Make job async
 - better classification
-- tag cloud
 - sentiment/polarity over time
 
 Nice to haves

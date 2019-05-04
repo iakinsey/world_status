@@ -26,6 +26,8 @@ class TagCloudView extends React.Component {
         return {text: tag.term, value: tag.count}
     })
 
+    console.log(tags)
+
     return (
         <WordCloud
          font={'"Lucida Console", Monaco, monospace'}
