@@ -1,4 +1,10 @@
+from time import time
+
+
 def get_prominent_terms(filter=None, size=25):
+    if filter is None:
+        filter = {}
+
     query = {
         "aggs": {
             "tagcloud": {
@@ -10,17 +16,18 @@ def get_prominent_terms(filter=None, size=25):
         }
     }
 
-    if filter:
-        query.update(get_articles(filter))
+    query.update(get_articles(filter))
 
     return query
 
 
 def get_articles(filter, size=10000):
     should = []
+    must = {}
     tag_filter = filter.get("tags", [])
     country_filter = filter.get("countries", [])
     term_filter = filter.get("terms", [])
+    time_filter = filter.get("time", int(time() - 86400))
 
     term_queries = []
     country_queries = []
@@ -47,12 +54,16 @@ def get_articles(filter, size=10000):
             "bool": {"must": query}
         })
 
+    if time_filter:
+        must["range"] = {"created": {"gte": time_filter}}
+
     return {
         'query': {
             'constant_score': {
                 'filter': {
                     'bool': {
-                        'should': should
+                        'should': should,
+                        'must': must
                     }
                 }
             }

@@ -1,7 +1,7 @@
 Major line items
 ----------------
 
-- datetime filter
+- datetime filter, order tag cloud by date desc
 - search by tag, country, term
 - better classification
 - sentiment/polarity over time

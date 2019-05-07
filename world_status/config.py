@@ -21,7 +21,7 @@ BAD_NGRAMS_PATH = join(DATA_DIR, 'bad_ngrams.json')
 
 
 DEBUG = False
-STATUS_JOB_THREAD_COUNT = cpu_count() * 2
+STATUS_JOB_THREAD_COUNT = cpu_count()
 
 
 ###############################################################################
