@@ -27,7 +27,7 @@ def get_articles(filter, size=10000):
     tag_filter = filter.get("tags", [])
     country_filter = filter.get("countries", [])
     term_filter = filter.get("terms", [])
-    time_filter = filter.get("time", int(time() - 86400))
+    time_filter = filter.get("time", int(time() - 604800))
 
     term_queries = []
     country_queries = []
