@@ -9,7 +9,7 @@ elasticsearch-async==6.2.0
 feedparser==5.2.1
 idna==2.8
 multidict==4.5.2
-nltk==3.4
+nltk==3.6.3
 pyzmq==18.0.1
 singledispatch==3.4.0.3
 six==1.12.0
